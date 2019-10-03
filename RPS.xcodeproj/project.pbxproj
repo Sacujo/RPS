@@ -13,6 +13,8 @@
 		9C82C267233E65CC00E6F7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C82C265233E65CC00E6F7B6 /* Main.storyboard */; };
 		9C82C269233E65CE00E6F7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C82C268233E65CE00E6F7B6 /* Assets.xcassets */; };
 		9C82C26C233E65CE00E6F7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C82C26A233E65CE00E6F7B6 /* LaunchScreen.storyboard */; };
+		9C82C274233E66FD00E6F7B6 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82C273233E66FD00E6F7B6 /* Sign.swift */; };
+		9C82C276233E67C600E6F7B6 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82C275233E67C600E6F7B6 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9C82C268233E65CE00E6F7B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C82C26B233E65CE00E6F7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C82C26D233E65CE00E6F7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C82C273233E66FD00E6F7B6 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		9C82C275233E67C600E6F7B6 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9C82C25F233E65CC00E6F7B6 /* AppDelegate.swift */,
 				9C82C261233E65CC00E6F7B6 /* SceneDelegate.swift */,
 				9C82C263233E65CC00E6F7B6 /* ViewController.swift */,
+				9C82C273233E66FD00E6F7B6 /* Sign.swift */,
+				9C82C275233E67C600E6F7B6 /* GameState.swift */,
 				9C82C265233E65CC00E6F7B6 /* Main.storyboard */,
 				9C82C268233E65CE00E6F7B6 /* Assets.xcassets */,
 				9C82C26A233E65CE00E6F7B6 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				9C82C264233E65CC00E6F7B6 /* ViewController.swift in Sources */,
 				9C82C260233E65CC00E6F7B6 /* AppDelegate.swift in Sources */,
+				9C82C276233E67C600E6F7B6 /* GameState.swift in Sources */,
+				9C82C274233E66FD00E6F7B6 /* Sign.swift in Sources */,
 				9C82C262233E65CC00E6F7B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W29VR3P4M2;
 				INFOPLIST_FILE = RPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W29VR3P4M2;
 				INFOPLIST_FILE = RPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
